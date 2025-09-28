@@ -1,13 +1,9 @@
-* {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
 
     body {
+      margin: 0;
       font-family: 'Roboto', sans-serif;
-      background-color: #071629;
-      color: white;
+      background:url('images/Object.png');
+      color: #fff;
     }
 
     header {
@@ -36,19 +32,20 @@
     }
 
     .hero {
-      text-align: center;
-      padding: 100px 20px 60px;
-      background: url('https://i.imgur.com/LnKDddu.png') no-repeat center top;
-      background-size: cover;
-      position: relative;
-    }
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 60px;
+  color: white;
+  overflow: hidden;
+}
+    
 
-    .hero::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: rgba(7, 22, 41, 0.6);
-    }
+    
+    
 
     .hero-content {
       position: relative;
@@ -120,3 +117,5 @@
       font-size: 13px;
       color: #FFFFFFAA;
     }
+
+    
