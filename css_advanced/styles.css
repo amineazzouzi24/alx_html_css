@@ -1,0 +1,122 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #071629;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 80px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .logo img {
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 40px;
+      font-size: 14px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px 60px;
+      background: url('https://i.imgur.com/LnKDddu.png') no-repeat center top;
+      background-size: cover;
+      position: relative;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(7, 22, 41, 0.6);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: 60px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .hero .btn {
+      background-color: #C271FF;
+      color: white;
+      padding: 12px 28px;
+      border: none;
+      border-radius: 30px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      text-transform: uppercase;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+
+    .subtext {
+      margin-top: 60px;
+      font-size: 18px;
+    }
+
+    .subtext span {
+      color: #C271FF;
+      font-weight: bold;
+    }
+
+    .profiles {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-top: 40px;
+    }
+
+    .profile {
+      text-align: center;
+      max-width: 150px;
+    }
+
+    .profile img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .profile h4 {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .profile p {
+      font-size: 13px;
+      color: #FFFFFFAA;
+    }
