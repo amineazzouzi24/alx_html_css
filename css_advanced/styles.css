@@ -2,6 +2,7 @@
     body {
       margin: 0;
       font-family: 'Roboto', sans-serif;
+      background-color: #C271FF;
       background:url('images/Object.png');
       color: #fff;
     }
@@ -118,4 +119,46 @@
       color: #FFFFFFAA;
     }
 
-    
+.testimonial-section {
+  background-color: #C271FF;
+  color: #fff;
+  padding: 80px 40px;
+}
+
+.testimonial-card {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.testimonial img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.testimonial-text {
+  max-width: 650px;
+}
+
+.testimonial blockquote {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.testimonial .author {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.testimonial .role {
+  font-style: italic;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
