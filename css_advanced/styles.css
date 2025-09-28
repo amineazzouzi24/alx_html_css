@@ -162,3 +162,105 @@
   font-size: 0.95rem;
   opacity: 0.9;
 }
+
+
+/* Tutorials Section */
+.tutorials {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.tutorials h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.tutorials .highlight {
+  color: #C271FF;
+}
+
+.tutorials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.tutorial-card {
+  text-align: left;
+  background: #fff;
+}
+
+.tutorial-thumb {
+  position: relative;
+}
+
+.tutorial-thumb img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  padding: 10px 15px;
+}
+
+.tutorial-card h3 {
+  margin: 15px 0 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.tutorial-card p {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+}
+
+.tutorial-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tutorial-footer .author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #C271FF;
+  font-weight: bold;
+}
+
+.tutorial-footer .author img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.tutorial-footer .meta {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.stars {
+  color: #C271FF;
+  margin-top: 10px;
+}
+
+section.tutorials{ 
+  background-color: white;
+}
+
+.tutorials h2{
+color: #666;
+
+}
+
